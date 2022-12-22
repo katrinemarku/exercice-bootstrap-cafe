@@ -12,13 +12,65 @@
 @import "bootstrap/scss/bootstrap-grid";
 @import url("https://use.typekit.net/vre3rku.css");
 
-@media (min-width: 375) {
+@media (max-width: 768px) {
+  .menu-carousel img {
+    width: 150px;
+  }
+
+  img.cake {
+    margin: 0 50px 0;
+  }
+  img.arrow {
+    width: 45px;
+  }
+
   a {
     font-size: 15px;
   }
 
+  .noi {
+    padding-bottom: 70px;
+  }
+
+  .history,
+  p {
+    padding-right: 52px;
+    padding-left: 25px;
+    padding-top: 20px;
+  }
+
+  ul {
+    padding-left: 25px;
+    padding-top: 20px;
+  }
+
+  .instagram-logo {
+    padding-left: 25px;
+    padding-bottom: 5px;
+  }
+
+  .menu-carousel {
+    text-align: center;
+    padding: 143px 0 143px;
+  }
+
+  .evento {
+    margin-top: 200px;
+  }
+
   h2 {
     font-size: 25px;
+    padding-top: 40px;
+    padding-left: 25px;
+    font-style: italic;
+  }
+
+  .menu {
+    padding-bottom: 50px;
+  }
+
+  footer {
+    padding-bottom: 272px;
   }
 }
 
@@ -29,6 +81,27 @@
 
   h2 {
     font-size: 30px;
+  }
+
+  .history,
+  p {
+    padding-right: 52px;
+    padding-left: 25px;
+  }
+
+  ul,
+  p,
+  h2 {
+    padding-left: 20px;
+  }
+
+  .instagram-logo {
+    padding-left: 25px;
+    padding-bottom: 10px;
+  }
+
+  footer {
+    padding-bottom: 207px;
   }
 }
 
@@ -50,7 +123,7 @@
   // border: 1px solid rgba(86, 61, 124, 0.2);
 }
 html {
-  font-size: 16px;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -114,20 +187,40 @@ nav {
 h2 {
   font-family: adobe-caslon-pro, serif;
   font-weight: 200;
-  font-size: 25px;
-  font-style: italic;
-  padding-top: 40px;
-  padding-bottom: 20px;
 }
 
 p {
   font-family: adobe-caslon-pro, serif;
   font-size: 15px;
-  padding: 0 28px 70px 0;
 }
 
 .noi {
   background-color: #af8964;
+  text-align: left;
+}
+
+.menu {
+  background-color: #af8964;
+}
+
+.evento {
+  position: relative;
+}
+
+.evento p {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.evento-block {
+  background: rgba(white, 0.5);
+}
+
+.evento-background {
+  background-image: url("../img/library-img.webp");
+  background-size: cover;
+  padding: 85px 10px 80px 0;
+  background-position: center;
 }
 
 li {
@@ -138,12 +231,18 @@ li {
   margin-left: 10px;
 }
 
-.evento-background {
-  background-image: url("../img/library-img.webp");
-  background-position: center;
-  background-size: 100%;
-}
-
 .carousel-menu {
   margin: auto;
+}
+
+.contato {
+  padding-bottom: 20px;
+}
+
+.mail {
+  padding-top: 5px;
+}
+
+h2 #evento {
+  padding-top: 21px;
 }
