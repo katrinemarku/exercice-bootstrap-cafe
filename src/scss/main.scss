@@ -16,6 +16,14 @@
   .menu-carousel img {
     width: 150px;
   }
+  .evento-background {
+    padding: 85px 10px 80px 0;
+  }
+  nav {
+    text-decoration: underline;
+    gap: 10px;
+    padding: 57px 0;
+  }
 
   img.cake {
     margin: 0 50px 0;
@@ -75,18 +83,58 @@
 }
 
 @media (min-width: 1024px) {
+  .menu-carousel img {
+    width: 288px;
+  }
+
+  .menu-carousel {
+    display: none;
+  }
+
+  .indirizzo {
+    padding: 10px 0 0;
+  }
+
+  .evento-background {
+    padding: 85px 45px 80px 0;
+    margin-bottom: 100px;
+  }
+
+  nav {
+    text-decoration: none;
+    gap: 95px;
+    padding: 57px 0;
+  }
+
+  .menu {
+    padding-bottom: 153px;
+    margin-bottom: 140px;
+    margin-top: 140px;
+  }
+
+  img.cake {
+    margin: 0 38px 0;
+  }
+  img.arrow {
+    width: 48px;
+  }
+
   a {
     font-size: 25px;
   }
 
   h2 {
     font-size: 30px;
+    padding-top: 30px;
   }
 
   .history,
   p {
     padding-right: 52px;
     padding-left: 25px;
+  }
+  .history {
+    padding-bottom: 178px;
   }
 
   ul,
@@ -96,7 +144,7 @@
   }
 
   .instagram-logo {
-    padding-left: 25px;
+    padding-left: 20px;
     padding-bottom: 10px;
   }
 
@@ -175,12 +223,9 @@ h1 {
 
 nav {
   color: black;
-  text-decoration: underline;
   font-family: adobe-caslon-pro, serif;
-  font-size: 15px;
   display: flex;
   justify-content: flex-end;
-  gap: 10px;
   padding: 57px 0;
 }
 
@@ -219,7 +264,6 @@ p {
 .evento-background {
   background-image: url("../img/library-img.webp");
   background-size: cover;
-  padding: 85px 10px 80px 0;
   background-position: center;
 }
 
