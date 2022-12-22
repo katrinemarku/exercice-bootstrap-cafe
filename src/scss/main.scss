@@ -11,6 +11,7 @@
 
 @import "bootstrap/scss/bootstrap-grid";
 @import url("https://use.typekit.net/vre3rku.css");
+@import "swiper/swiper";
 
 @media (max-width: 768px) {
   .menu-carousel img {
@@ -71,6 +72,9 @@
     padding-top: 40px;
     padding-left: 25px;
     font-style: italic;
+  }
+  .menu-carousel-lg {
+    display: none;
   }
 
   .menu {
